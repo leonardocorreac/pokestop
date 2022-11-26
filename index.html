@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokestop</title>
+  <link rel="shortcut icon" href="./favicons/favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="scripts.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <img src="./assets/pokemon_logo.png" class="pokemon__logo" alt="pokemon logo">
+    </div>
+  </header>
+  <main class="main">
+    <div class="container">
+      <section class="pokestop">
+        <div class="pokebola">
+          <img src="./assets/pokebola.png" 
+          class="pokebola__image" 
+          alt="pokebola"
+          onclick="getPokemon()"
+          >
+        </div>
+        <div class="pokemon">  
+        </div>
+      </section>
+
+
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">Desenvolvido por <a href="https://github.com/leonardocorreac" target="_blank">Leonardo</a> </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
